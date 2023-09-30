@@ -1,0 +1,61 @@
+{
+  "news": [
+    {
+      "title": "Confirmed cases",
+      "about": "Covid",
+      "learn_more": {
+        "title": "Learn how to prevent infections",
+        "href": "#"
+      },
+      "infos": ["RJ", "SP", "MG", "RS"]
+    },
+    {
+      "title": "Top posts",
+      "about": "Posts",
+      "infos": ["Wallstreetbets", "Bovespa", "Petro"],
+      "learn_more": {
+        "title": "Do you want more visits? Contact us!",
+        "href": "#"
+      }
+    }
+  ],
+
+  "covid-rj": { "code": "RJ", "info": 1995136 },
+  "covid-sp": { "code": "SP", "info": 4432396 },
+  "covid-mg": { "code": "MG", "info": 2513591 },
+
+  "economy-wallstreetbets": {
+    "code": "Wallstreetbets",
+    "info": [
+      {
+        "text": "Now i know where to put my money",
+        "value": 52140
+      },
+      {
+        "text": "He is one of us, and frankly he should business",
+        "value": 17757
+      },
+      {
+        "text": "Crazy times the stocks!",
+        "value": 6812
+      }
+    ]
+  },
+  "economy-bovespa": {
+    "code": "Bovespa",
+    "info": [
+      {
+        "text": "Invista seu dinheiro na bolsa, quer saber veja aqui",
+        "value": 147852
+      },
+      {
+        "text": "Bitcoin é o futuro? Veja como investir e ficar milionário.",
+        "value": 145236
+      },
+      {
+        "text": "Confiabilidade a mais de 100",
+        "value": 23654
+      }
+    ]
+  }
+}
