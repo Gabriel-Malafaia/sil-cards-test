@@ -6,10 +6,10 @@
 
 ## Como rodar o projeto?
 
-1. Ao clonar o projeto, Abra o terminal e na pasta raiz do projeto.
+1. Ao clonar o projeto, Abra o terminal e navegue até a pasta raiz do projeto.
 2. Execute o comando "pnpm install" para instalar as dependências do client.
-3. Após instalar as dependências, inicie uma instância de terminal e rode o banco de dados com o comando "pnpm db".
-4. Abra outra instância de terminal e execute o comando "pnpm dev" para iniciar a aplicação. (Certifique-se de que o database está rodando)
+3. Após instalar as dependências, inicie uma instância de terminal na pasta clonada e rode o banco de dados com o comando "pnpm db".
+4. Abra outra instância de terminal na raiz e execute o comando "pnpm dev" para iniciar a aplicação. (Certifique-se de que o database está rodando).
 
 ## 📱 Preview 
 
