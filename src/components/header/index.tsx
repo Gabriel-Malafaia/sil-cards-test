@@ -7,7 +7,7 @@ export default function Header() {
     <Flex as="header" bg={colors.primary} w="100%" p={4} height={"3xs"}>
       <Center
         w={"100%"}
-        maxW={1600}
+        maxW={1400}
         p={4}
         justifyContent={"flex-start"}
         margin={"auto"}

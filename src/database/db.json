@@ -14,8 +14,7 @@
       "about": "Posts",
       "infos": ["Wallstreetbets", "Bovespa", "Petro"],
       "learn_more": {
-        "title": "Do you want more visits? Contact us!",
-        "href": "#"
+        "title": "Do you want more visits? Contact us!"
       }
     }
   ],
@@ -24,7 +23,7 @@
   "covid-sp": { "code": "SP", "info": 4432396 },
   "covid-mg": { "code": "MG", "info": 2513591 },
 
-  "economy-wallstreetbets": {
+  "posts-wallstreetbets": {
     "code": "Wallstreetbets",
     "info": [
       {
@@ -41,7 +40,7 @@
       }
     ]
   },
-  "economy-bovespa": {
+  "posts-bovespa": {
     "code": "Bovespa",
     "info": [
       {
