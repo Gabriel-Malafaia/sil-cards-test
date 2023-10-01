@@ -6,15 +6,21 @@ import { colors } from "../../service/utils";
 interface IProps {
   text: string;
   actionLabel: string;
-  action: () => void;
+  action?: () => void;
 }
 
 export default function Error({ text, actionLabel, action }: IProps) {
   return (
-    <Flex background={colors.error} borderRadius={5} p={5} maxW={320}>
-      <Center gap={4}>
+    <Flex
+      background={colors.error}
+      borderRadius={5}
+      p={5}
+      w={"100%"}
+      maxW={420}
+    >
+      <Center gap={4} justifyContent={"space-between"} w={"100%"}>
         <BiErrorAlt className={styles.error} />
-        <Text fontWeight={"semibold"}>{text}</Text>
+        <Text fontWeight={"bold"}>{text}</Text>
         <Button onClick={action} background={colors.white}>
           {actionLabel}
         </Button>
