@@ -4,6 +4,28 @@
   Sil Cards, the best way to present information!.
 </h3>
 
+## Como rodar o projeto?
+
+1. Ao clonar o projeto, Abra o terminal e na pasta raiz do projeto.
+2. Execute o comando "pnpm install" para instalar as dependências do client.
+3. Após instalar as dependências, inicie uma instância de terminal e rode o banco de dados com o comando "pnpm db".
+4. Abra outra instância de terminal e execute o comando "pnpm dev" para iniciar a aplicação. (Certifique-se de que o database está rodando)
+
+## 📱 Preview 
+
+
+
+![main](https://i.imgur.com/XgqQEcl.png)
+
+<p align="center">
+  <img src="https://i.imgur.com/OWKopTe.png">
+</p>
+
+## Vamos nos conectar?
+- [Linkedin](https://www.linkedin.com/in/gabrielmalafaia/)
+
+
+
 <p align="center">
 
 ## 💇🏼 Sobre o template
