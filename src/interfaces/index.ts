@@ -1,6 +1,6 @@
 interface INewsLearnMore {
   title: string;
-  href: string;
+  href?: string;
 }
 
 export interface INews {
@@ -8,4 +8,16 @@ export interface INews {
   about: string;
   learn_more: INewsLearnMore;
   infos: string[];
+}
+
+// Api Response
+
+interface INewsResponseArray {
+  text: string;
+  value: number;
+}
+
+export interface INewsResponse {
+  code: string;
+  info: number | INewsResponseArray[];
 }
