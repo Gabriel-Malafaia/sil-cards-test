@@ -1,12 +1,11 @@
 import { Grid } from "@chakra-ui/react";
-import { INews } from "../../interfaces";
-import { Card } from "..";
+import { ReactNode } from "react";
 
 interface IProps {
-  items: INews[];
+  children: ReactNode;
 }
 
-export default function CardList({ items }: IProps) {
+export default function CardList({ children }: IProps) {
   return (
     <Grid
       templateColumns={{
@@ -14,11 +13,9 @@ export default function CardList({ items }: IProps) {
         md: "repeat(2, 1fr)",
         lg: "repeat(3, 1fr)",
       }}
-      gap={6}
+      gap={5}
     >
-      {items.map((item, index) => (
-        <Card key={index} item={item} />
-      ))}
+      {children}
     </Grid>
   );
 }
