@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Header />
-      <Box as="main" maxW={1400} margin={"auto"} my={news ? -12 : 0}>
+      <Box as="main" maxW={1400} margin={"auto"} my={news ? -12 : 4} p={4}>
         <RenderContent loading={loading} error={error} actionError={fetchData}>
           <CardList>
             {news?.map((item, index) => (
