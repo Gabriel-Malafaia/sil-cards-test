@@ -4,13 +4,13 @@ import { colors } from "../../service/utils";
 
 export default function Header() {
   return (
-    <Flex as="header" bg={colors.primary} w="100%" p={4} height={"3xs"}>
+    <Flex as="header" bg={colors.primary} w="100%" height={"3xs"}>
       <Center
         w={"100%"}
         maxW={1400}
-        p={4}
         justifyContent={"flex-start"}
-        margin={"auto"}
+        m={"auto"}
+        p={4}
       >
         <Image maxW={{ base: 250, sm: 400, md: 500 }} src={Logo} alt="Logo" />
       </Center>

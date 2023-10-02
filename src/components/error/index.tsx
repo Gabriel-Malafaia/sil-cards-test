@@ -11,13 +11,7 @@ interface IProps {
 
 export default function Error({ text, actionLabel, action }: IProps) {
   return (
-    <Flex
-      background={colors.error}
-      borderRadius={5}
-      p={5}
-      w={"100%"}
-      maxW={420}
-    >
+    <Flex background={colors.error} borderRadius={5} p={5} w={"100%"}>
       <Center gap={4} justifyContent={"space-between"} w={"100%"}>
         <BiErrorAlt className={styles.error} />
         <Text fontWeight={"bold"}>{text}</Text>
