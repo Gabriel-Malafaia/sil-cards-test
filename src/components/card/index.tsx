@@ -46,7 +46,7 @@ export default function Card({ icon, item, custom }: IProps) {
       rounded="md"
       w={"auto"}
       minH={220}
-      gap={5}
+      gap={2}
     >
       <Box
         display={"flex"}
